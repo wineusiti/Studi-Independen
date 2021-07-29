@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class email {
+    public static void main(String[] args) {
+        string array[];
+		Scanner in = new Scanner(System.in);
+        System.out.print("Masukan Email: ");
+		array = in.nextInt ();
+		For (int i=0;i<=20;i++){
+			if(array[i] == '@'){
+				if(array[i+1] == '.'){
+					for(i=0;i<5;i++){
+						if (array[]== 'id'){
+							System.out.print("Benar");
+						}
+						else if (array[]=='co.id'){
+							System.out.print("Benar");
+						}
+					}
+				}
+			}
+			else{
+				System.out.print("Salah");
+			}
+		}			
+    }
+}
