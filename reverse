@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class reverse {
+    public static void main(String[] args) {
+    String kata, balik = "";
+    Scanner in = new Scanner(System.in);
+	System.out.println("Masukan Kata : ");
+    kata = in.nextLine();
+    int length = kata.length();
+    for (int i = length - 1 ; i >= 0 ; i--)
+      balik = balik + kata.charAt(i);
+	System.out.println(kata + " => " + balik);
+  }
+}
